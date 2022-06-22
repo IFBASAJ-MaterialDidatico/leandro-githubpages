@@ -1,6 +1,6 @@
 {
   "name": "Oficina GitHub Pages",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Apresentação do Github Pages como opção de hospedagem de sites estáticos",
   "main": "index.js",
   "authors": {
