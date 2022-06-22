@@ -1,4 +1,5 @@
 ---
+navbar: false
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Apresentação do Github Pages como opção de hospedagem de sites estáticos

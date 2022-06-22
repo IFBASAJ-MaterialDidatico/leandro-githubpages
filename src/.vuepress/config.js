@@ -50,7 +50,8 @@ module.exports = {
     editLinks: true,
     docsDir: 'src',
     editLinkText: 'Editar',
-    lastUpdated: true,
+    lastUpdated: false,
+    docsBranch: 'main',
     nav: [
       {
         text: 'Guide',
