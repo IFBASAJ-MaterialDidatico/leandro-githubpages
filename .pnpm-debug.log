@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "errno": 1,
+    "code": "ELIFECYCLE",
+    "pkgid": "Oficina GitHub Pages@0.0.1",
+    "stage": "dev",
+    "script": "vuepress dev src",
+    "pkgname": "Oficina GitHub Pages",
+    "err": {
+      "name": "pnpm",
+      "message": "Oficina GitHub Pages@0.0.1 dev: `vuepress dev src`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: Oficina GitHub Pages@0.0.1 dev: `vuepress dev src`\nExit status 1\n    at EventEmitter.<anonymous> (D:\\Portable\\node-v16.15.1-win-x64\\node_modules\\pnpm\\dist\\pnpm.cjs:107358:20)\n    at EventEmitter.emit (node:events:527:28)\n    at ChildProcess.<anonymous> (D:\\Portable\\node-v16.15.1-win-x64\\node_modules\\pnpm\\dist\\pnpm.cjs:93924:18)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1092:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}

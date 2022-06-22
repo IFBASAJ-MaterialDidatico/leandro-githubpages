@@ -1,0 +1,21 @@
+{
+  "name": "Oficina GitHub Pages",
+  "version": "0.0.1",
+  "description": "Apresentação do Github Pages como opção de hospedagem de sites estáticos",
+  "main": "index.js",
+  "authors": {
+    "name": "Leandro Costa Souza",
+    "email": "leandro.costa@ifba.edu.br"
+  },
+  "repository": "IFBASAJ-MaterialDidatico/leandro-githubpages",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@mdi/font": "^6.7.96",
+    "vuepress": "^1.5.3",
+    "vuetify": "^2.6.6"
+  }
+}

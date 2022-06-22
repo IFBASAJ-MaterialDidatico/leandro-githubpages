@@ -1,0 +1,90 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+.home .hero img
+  max-width 450px!important
+
+p, li
+  text-align justify
+  hyphens auto
+
+p.description, p.action
+  text-align center
+
+body {
+    counter-reset: figures;
+    counter-reset: tables;
+}
+
+figure {
+    counter-increment: figures;
+    text-align: center;
+}
+
+figcaption {
+    font-style: normal;
+    display: inherit;
+    text-align: center;
+    font-size: 90%;
+}
+
+figcaption:before {
+    content: 'Figura ' counter(figures) ' - ';
+}
+
+table {
+    counter-increment: tables;
+}
+
+table>caption {
+    font-style: normal;
+    caption-side: top;
+    text-align: center;
+    font-size: 90%;
+    background: none;
+    border-bottom: none;
+    color: #172b4d;
+}
+
+table>caption:before {
+    content: 'Tabela ' counter(tables) ' - ';
+}
+
+li > ol > li {
+    list-style: lower-alpha;
+}
+
+@media print {
+
+  .navbar{
+    position: absolute;
+  }
+  aside{
+    display: none;
+  }
+  .page {
+    padding-left: 0rem;
+  }
+  p, ul, ol {
+    line-height: 1.25;
+  }
+}
+
+.custom-block
+  &.col-wrapper
+    @media (min-width: 992px)
+      &
+        display flex
+
+  &.col-half
+    width 100%
+
+    @media (min-width: 992px)
+      &
+        flex 0 0 50%
+        max-width 50%
+        text-align center
+
