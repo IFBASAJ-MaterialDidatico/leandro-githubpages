@@ -1,10 +1,9 @@
 ---
 navbar: false
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Apresentação do Github Pages como opção de hospedagem de sites estáticos
-actionText: Quick Start →
-actionLink: /guide/
+actionText: Vamos Começar ▶
+actionLink: /github/
 features:
 - title: Feature 1 Title
   details: Feature 1 Description
@@ -12,5 +11,7 @@ features:
   details: Feature 2 Description
 - title: Feature 3 Title
   details: Feature 3 Description
-footer: Made by Leandro Costa Souza with ❤️
+- title: Feature 4 Title
+  details: Feature 4 Description
+footer: By Leandro Costa Souza
 ---

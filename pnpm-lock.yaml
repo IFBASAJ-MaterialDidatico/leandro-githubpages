@@ -2,11 +2,17 @@ lockfileVersion: 5.4
 
 specifiers:
   '@mdi/font': ^6.7.96
+  markdown-it-footnote: ^3.0.3
+  markdown-it-include: ^2.0.0
+  markdown-it-task-lists: ^2.1.1
   vuepress: ^1.5.3
   vuetify: ^2.6.6
 
 devDependencies:
   '@mdi/font': 6.7.96
+  markdown-it-footnote: 3.0.3
+  markdown-it-include: 2.0.0
+  markdown-it-task-lists: 2.1.1
   vuepress: 1.9.7
   vuetify: 2.6.6
 
@@ -6020,9 +6026,24 @@ packages:
     resolution: {integrity: sha512-QCz3Hkd+r5gDYtS2xsFXmBYrgw6KuWcJZLCEkdfAuwzZbShCmCfta+hwAMq4NX/4xPzkSHduMKgMkkPUJxSXNg==}
     dev: true
 
+  /markdown-it-footnote/3.0.3:
+    resolution: {integrity: sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==}
+    dev: true
+
+  /markdown-it-include/2.0.0:
+    resolution: {integrity: sha512-wfgIX92ZEYahYWiCk6Jx36XmHvAimeHN420csOWgfyZjpf171Y0xREqZWcm/Rwjzyd0RLYryY+cbNmrkYW2MDw==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      markdown-it: '>=8.4.2'
+    dev: true
+
   /markdown-it-table-of-contents/0.4.4:
     resolution: {integrity: sha512-TAIHTHPwa9+ltKvKPWulm/beozQU41Ab+FIefRaQV1NRnpzwcV9QOe6wXQS5WLivm5Q/nlo0rl6laGkMDZE7Gw==}
     engines: {node: '>6.4.0'}
+    dev: true
+
+  /markdown-it-task-lists/2.1.1:
+    resolution: {integrity: sha512-TxFAc76Jnhb2OUu+n3yz9RMu4CwGfaT788br6HhEDlvWfdeJcLUsxk1Hgw2yJio0OXsxv7pyIPmvECY7bMbluA==}
     dev: true
 
   /markdown-it/8.4.2:

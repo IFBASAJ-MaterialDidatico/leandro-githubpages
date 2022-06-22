@@ -54,30 +54,44 @@ module.exports = {
     docsBranch: 'main',
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Github',
+        link: '/github/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'GitHub Pages',
+        link: '/github-pages/',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'CeT IFBA-SAJ',
+        link: 'https://doity.com.br/seminario-de-ciencia-e-tecnologia-do-ifba-saj'
       }
     ],
     sidebar: [
       {
-        title: 'Config',
+        title: 'Github',
         collapsable: true,
-        sidebarDepth: 2,
-        children: getChildren('src', 'config')
+        sidebarDepth: 1,
+        children: getChildren('src', 'github')
       },
       {
-        title: 'Guide',
+        title: 'GitHub Pages',
         collapsable: true,
-        children: getChildren('src', 'guide')
-      }
-    ]
-  }
+        sidebarDepth: 1,
+        children: getChildren('src', 'github-pages')
+      },
+    ],
+
+
+  },
+  markdown: {
+
+    extendMarkdown: md => {
+      md.use(require("markdown-it-footnote"))
+      md.use(require("markdown-it-include"))
+      md.use(require("markdown-it-task-lists"))
+    },
+    lineNumbers: true
+
+  },
+
 }
